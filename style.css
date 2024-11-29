@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./closeup-rolled-of-variety-banknote-around-the-world-exchange-rate-and-forex-investment.webp);
+}
+.container{
+    width: 50%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    height: 60%;
+    
+}
+.container h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.container p{
+    font-size: 1.5rem;
+}
+form select{
+    font-size: 1.5rem;
+}
+
+form{
+    margin: 2rem 0 2rem 0;
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 2px solid lightgray;
+    font-size: 1.5rem;
+    height: 3rem;
+    padding: 0.25rem;
+}
+.dropdown{
+    display:flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 2rem;
+}
+.dropdown i{
+    font-size: 2rem;
+    margin-top: 1.25rem;
+}
+.select-container img{
+    max-width: 2.75rem;
+}
+
+.select-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 8rem;
+     border-radius: 0.75rem;
+     border: 2px solid lightgray;
+   
+}
+.select-container select{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.msg{
+    margin:2rem 0 2rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+form button{
+    font-size: 1.5rem;
+    border: 2px solid #9ef01a ;
+    height: 3rem;
+    transition: all 0.3s linear;
+}
+form button:hover{
+    background-color: #9ef01a;
+    color: white;
+    cursor: pointer;
+}
+
+
