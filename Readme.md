@@ -1,0 +1,1 @@
+# This project is made using API caling and gives a crisp knowledge about the promises and json objects and fethcing of data from the API's.
